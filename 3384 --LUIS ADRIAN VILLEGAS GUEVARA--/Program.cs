@@ -150,7 +150,16 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
             libros += int.Parse(Console.ReadLine());
 
             Console.WriteLine("\nEn la biblioteca quedan " + libros + " libros.");
+            //13 commit
 
+            Console.Write("¿Cuánto dinero tienes? ");
+            int dinero = int.Parse(Console.ReadLine());
+
+            dinero -= (2 * 10); // refrescos
+            dinero -= 15;       // pan
+            dinero -= 20;       // fruta
+
+            Console.WriteLine("\nTe queda $" + dinero + " después de las compras.");
 
 
 
