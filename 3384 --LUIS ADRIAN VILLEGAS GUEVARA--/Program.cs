@@ -10,7 +10,7 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
     {
         static void Main(string[] args)
         {
-             Console.ForegroundColor = ConsoleColor.Green;
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine(" Primer ejercicio");
             Console.ForegroundColor = ConsoleColor.White;
 
@@ -237,8 +237,29 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
             double area = b * h;
             Console.WriteLine($"El área del rectángulo es: {area}");
 
+            //ejercicio número 13
+
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine(" Onceavo ejercicio");
+            Console.ForegroundColor = ConsoleColor.White;
+
+            Console.Write("Ingresa un número del 1 al 7: ");
+            int dia = int.Parse(Console.ReadLine());
+
+            switch (dia)
+            {
+                case 1: Console.WriteLine("Lunes"); break;
+                case 2: Console.WriteLine("Martes"); break;
+                case 3: Console.WriteLine("Miércoles"); break;
+                case 4: Console.WriteLine("Jueves"); break;
+                case 5: Console.WriteLine("Viernes"); break;
+                case 6: Console.WriteLine("Sábado"); break;
+                case 7: Console.WriteLine("Domingo"); break;
+                default: Console.WriteLine("Número inválido"); break;
 
 
+
+            }
         }
     }
 }
