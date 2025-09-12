@@ -138,6 +138,19 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
 
             //prueba d commit
 
+            //12 commit
+
+            Console.Write("¿Cuántos libros había en la biblioteca al inicio? ");
+            int libros = int.Parse(Console.ReadLine());
+
+            Console.Write("¿Cuántos libros se prestaron? ");
+            libros -= int.Parse(Console.ReadLine());
+
+            Console.Write("¿Cuántos libros se devolvieron? ");
+            libros += int.Parse(Console.ReadLine());
+
+            Console.WriteLine("\nEn la biblioteca quedan " + libros + " libros.");
+
 
 
 
