@@ -91,7 +91,7 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
             //7 commit
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine(" Quinto ejercicio");
-
+            Console.ForegroundColor = ConsoleColor.White;
             int pastel = 8;
             int comido = 2;
             int repartido = 3;
@@ -211,7 +211,18 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
 
             //prueba de commit
 
+            // otro ejerciciooooo
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine(" Onceavo ejercicio");
+            Console.ForegroundColor = ConsoleColor.White;
 
+            Console.Write("Ingresa tu nombre: ");
+            string nombr = Console.ReadLine();
+
+            Console.Write("Ingresa tu edad: ");
+            int eda = int.Parse(Console.ReadLine());
+
+            Console.WriteLine($"Hola {nombr}, en 10 años tendrás {eda + 10} años.");
         }
     }
 }
