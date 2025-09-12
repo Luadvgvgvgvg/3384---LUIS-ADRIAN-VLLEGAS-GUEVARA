@@ -42,6 +42,19 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
             Console.WriteLine("Su edad es: " + edad);
             Console.WriteLine("Su estatura es: " + estatura);
             Console.WriteLine(nombre + " Tu edad es " + edad + " años, y naciste en el año " + anionacimiento);
+
+
+            //Segundo ejercicio 
+
+            Console.Write("Ingresa un número: ");
+            int numero = int.Parse(Console.ReadLine());
+
+            if (numero % 2 == 0)
+                Console.WriteLine("El número es par.");
+            else
+                Console.WriteLine("El número es impar.");
+
+
         }
     }
 }
