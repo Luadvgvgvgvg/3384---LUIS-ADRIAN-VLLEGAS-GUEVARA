@@ -270,10 +270,37 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
                 case 7: Console.WriteLine("Domingo"); break;
                 default: Console.WriteLine("Número inválido"); break;
 
-
-
-
             }
+            // ------------------ 14 EJERCICIO ------------------
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine(" 14 EJERCICIO - SWITCH DÍAS");
+            Console.WriteLine("-----------------------------------");
+            Console.ForegroundColor = ConsoleColor.White;
+
+
+            // Pedir datos al usuario
+            Console.WriteLine("Ingrese el precio del producto:");
+            double precio = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Ingrese el porcentaje de descuento (ejemplo: 15 para 15%):");
+            double descuento = double.Parse(Console.ReadLine());
+
+            // Calcular el monto de descuento
+            double montoDescuento = (precio * descuento) / 100;
+
+            // Calcular precio final
+            double precioFinal = precio - montoDescuento;
+
+            // Mostrar resultados
+            Console.WriteLine("\n-------------------------------");
+            Console.WriteLine("Precio original: " + precio);
+            Console.WriteLine("Descuento aplicado: " + descuento + "%");
+            Console.WriteLine("Monto descontado: " + montoDescuento);
+            Console.WriteLine("Precio final a pagar: " + precioFinal);
+
+
+
         }
     }
 }
