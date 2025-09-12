@@ -10,6 +10,10 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
     {
         static void Main(string[] args)
         {
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine(" Primer ejercicio");
+            Console.ForegroundColor = ConsoleColor.White;
+
             // Primer ejercicio de la tarea 
 
             //Solicitar e imprimir el nombre, la edad y la estatura de un alumno
@@ -43,7 +47,9 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
             Console.WriteLine("Su estatura es: " + estatura);
             Console.WriteLine(nombre + " Tu edad es " + edad + " años, y naciste en el año " + anionacimiento);
 
-
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine(" Segundo ejercicio");
+            Console.ForegroundColor = ConsoleColor.White;
             //Segundo ejercicio 
 
             Console.Write("Ingresa un número: ");
@@ -61,7 +67,9 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
             Console.WriteLine("El número es impar.");
 
             //5 commit 
-
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine(" Tercer ejercicio");
+            Console.ForegroundColor = ConsoleColor.White;
             int manzanasJuan = 10;
             int manzanasDadas = 3;
 
@@ -71,6 +79,9 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
 
             //Sexto ejercicio 
 
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine(" Cuarto ejercicio");
+            Console.ForegroundColor = ConsoleColor.White;
             int pasajeros = 20;
             pasajeros += 5; // suben
             pasajeros -= 2; // bajan
@@ -78,6 +89,8 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
             Console.WriteLine("En el autobús hay " + pasajeros + " pasajeros.");
 
             //7 commit
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine(" Quinto ejercicio");
 
             int pastel = 8;
             int comido = 2;
@@ -88,6 +101,9 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
             Console.WriteLine("Quedan " + restante + " porciones de pastel.");
 
             // 8 commit 
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine(" Sexto ejercicio");
+            Console.ForegroundColor = ConsoleColor.White;
 
             int juan = 12;
             int pedro = 8;
@@ -128,6 +144,10 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
             //Fin del ejercicio
 
             // 11 commit
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine(" Séptimo ejercicio");
+            Console.ForegroundColor = ConsoleColor.White;
+
             Console.Write("¿Cuánto dinero tiene María al inicio? ");
             int dinero = int.Parse(Console.ReadLine());
 
@@ -139,7 +159,9 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
             //prueba d commit
 
             //12 commit
-
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine(" Octavo ejercicio");
+            Console.ForegroundColor = ConsoleColor.White;
             Console.Write("¿Cuántos libros había en la biblioteca al inicio? ");
             int libros = int.Parse(Console.ReadLine());
 
@@ -151,6 +173,9 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
 
             Console.WriteLine("\nEn la biblioteca quedan " + libros + " libros.");
             //13 commit
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine(" Noveno ejercicio");
+            Console.ForegroundColor = ConsoleColor.White;
 
             Console.Write("¿Cuánto dinero tienes? ");
             int diner = int.Parse(Console.ReadLine());
@@ -162,7 +187,9 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
             Console.WriteLine("\nTe queda $" + dinero + " después de las compras.");
 
             //14 commit 
-
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine(" Décimo ejercicio");
+            Console.ForegroundColor = ConsoleColor.White;
             Console.Write("Ingresa la primera nota: ");
             double n1 = double.Parse(Console.ReadLine());
 
@@ -181,9 +208,8 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
             else
                 Console.WriteLine("Reprobaste.");
 
-            //Pruebaaaaa
-            //prueba de commit
 
+            //prueba de commit
 
 
         }
