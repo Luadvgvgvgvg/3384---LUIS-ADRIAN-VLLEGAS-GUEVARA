@@ -161,6 +161,26 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
 
             Console.WriteLine("\nTe queda $" + dinero + " después de las compras.");
 
+            //14 commit 
+
+            Console.Write("Ingresa la primera nota: ");
+            double n1 = double.Parse(Console.ReadLine());
+
+            Console.Write("Ingresa la segunda nota: ");
+            double n2 = double.Parse(Console.ReadLine());
+
+            Console.Write("Ingresa la tercera nota: ");
+            double n3 = double.Parse(Console.ReadLine());
+
+            double promedio = (n1 + n2 + n3) / 3;
+
+            Console.WriteLine("\nEl promedio es: " + promedio);
+
+            if (promedio >= 11)
+                Console.WriteLine("✅ Aprobaste.");
+            else
+                Console.WriteLine("❌ Reprobaste.");
+
 
 
         }
