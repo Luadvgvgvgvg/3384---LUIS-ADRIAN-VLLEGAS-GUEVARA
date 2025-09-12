@@ -87,6 +87,24 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
 
             Console.WriteLine("Quedan " + restante + " porciones de pastel.");
 
+            // 8 commit 
+
+            int juan = 12;
+            int pedro = 8;
+
+            Console.WriteLine("Al inicio:");
+            Console.WriteLine("Juan tiene " + juan + " manzanas.");
+            Console.WriteLine("Pedro tiene " + pedro + " manzanas.\n");
+
+            // Paso 1: Juan le da 3 manzanas a Pedro
+            juan -= 3;
+            pedro += 3;
+            Console.WriteLine("Después de que Juan le da 3 manzanas a Pedro:");
+            Console.WriteLine("Juan tiene " + juan + " manzanas.");
+            Console.WriteLine("Pedro tiene " + pedro + " manzanas.\n");
+
+
+
 
         }
     }
