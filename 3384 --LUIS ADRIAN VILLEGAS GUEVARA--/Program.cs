@@ -10,99 +10,107 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
     {
         static void Main(string[] args)
         {
+            // ------------------ 1 EJERCICIO
+            // ------------------
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine(" Primer ejercicio");
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine(" 1 EJERCICIO - DATOS DEL ALUMNO");
+            Console.WriteLine("-----------------------------------");
             Console.ForegroundColor = ConsoleColor.White;
 
-            // Primer ejercicio de la tarea 
-
-            //Solicitar e imprimir el nombre, la edad y la estatura de un alumno
-
-            //ADEMAS MOSTRAR EN QUE AÑO NACIO
-
-            //Entrada (Declarar variables)
             string nombre;
             int edad;
             float estatura;
             int anionacimiento;
 
-            //Proceso (Lògica)
             Console.WriteLine("Bienvenido");
             Console.WriteLine("Ingrese su nombre: ");
             nombre = Console.ReadLine();
             Console.Beep(400, 500);
+
             Console.WriteLine("Ingrese su edad: ");
             edad = int.Parse(Console.ReadLine());
             Console.Beep(1000, 800);
+
             Console.WriteLine("Ingrese su estatura: ");
             estatura = float.Parse(Console.ReadLine());
             Console.Beep(1300, 1000);
+
             anionacimiento = 2024 - edad;
 
-
-
-            //Salida (Mostrar resultados)
             Console.WriteLine("Su nombre es: " + nombre);
             Console.WriteLine("Su edad es: " + edad);
             Console.WriteLine("Su estatura es: " + estatura);
             Console.WriteLine(nombre + " Tu edad es " + edad + " años, y naciste en el año " + anionacimiento);
 
+
+            // ------------------ 2 EJERCICIO ------------------
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine(" Segundo ejercicio");
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine(" 2 EJERCICIO - PAR O IMPAR");
+            Console.WriteLine("-----------------------------------");
             Console.ForegroundColor = ConsoleColor.White;
-            //Segundo ejercicio 
 
             Console.Write("Ingresa un número: ");
             int numero = int.Parse(Console.ReadLine());
 
             if (numero % 2 == 0)
             {
-
                 Console.WriteLine("El número es par.");
             }
             else
             {
-
+                Console.WriteLine("El número es impar.");
             }
-            Console.WriteLine("El número es impar.");
 
-            //5 commit 
+
+            // ------------------ 3 EJERCICIO ------------------
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine(" Tercer ejercicio");
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine(" 3 EJERCICIO - MANZANAS JUAN");
+            Console.WriteLine("-----------------------------------");
             Console.ForegroundColor = ConsoleColor.White;
+
             int manzanasJuan = 10;
             int manzanasDadas = 3;
-
             int resultado = manzanasJuan - manzanasDadas;
 
             Console.WriteLine("A Juan le quedan " + resultado + " manzanas.");
 
-            //Sexto ejercicio 
 
+            // ------------------ 4 EJERCICIO ------------------
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine(" Cuarto ejercicio");
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine(" 4 EJERCICIO - PASAJEROS");
+            Console.WriteLine("-----------------------------------");
             Console.ForegroundColor = ConsoleColor.White;
+
             int pasajeros = 20;
             pasajeros += 5; // suben
             pasajeros -= 2; // bajan
-
             Console.WriteLine("En el autobús hay " + pasajeros + " pasajeros.");
 
-            //7 commit
+
+            // ------------------ 5 EJERCICIO ------------------
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine(" Quinto ejercicio");
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine(" 5 EJERCICIO - PASTEL");
+            Console.WriteLine("-----------------------------------");
             Console.ForegroundColor = ConsoleColor.White;
+
             int pastel = 8;
             int comido = 2;
             int repartido = 3;
-
             int restante = pastel - (comido + repartido);
 
             Console.WriteLine("Quedan " + restante + " porciones de pastel.");
 
-            // 8 commit 
+
+            // ------------------ 6 EJERCICIO ------------------
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine(" Sexto ejercicio");
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine(" 6 EJERCICIO - MANZANAS JUAN Y PEDRO");
+            Console.WriteLine("-----------------------------------");
             Console.ForegroundColor = ConsoleColor.White;
 
             int juan = 12;
@@ -112,40 +120,35 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
             Console.WriteLine("Juan tiene " + juan + " manzanas.");
             Console.WriteLine("Pedro tiene " + pedro + " manzanas.\n");
 
-            // Paso 1: Juan le da 3 manzanas a Pedro
             juan -= 3;
             pedro += 3;
             Console.WriteLine("Después de que Juan le da 3 manzanas a Pedro:");
             Console.WriteLine("Juan tiene " + juan + " manzanas.");
             Console.WriteLine("Pedro tiene " + pedro + " manzanas.\n");
 
-            // 9 commit del mismo ejercicio
-
-            // Paso 2: Pedro se come 2 manzanas
             pedro -= 2;
             Console.WriteLine("Después de que Pedro se come 2 manzanas:");
             Console.WriteLine("Juan tiene " + juan + " manzanas.");
             Console.WriteLine("Pedro tiene " + pedro + " manzanas.\n");
 
-            // 10 commit del mismo ejercicio
-            // Paso 3: Juan compra 5 manzanas más
             juan += 5;
             Console.WriteLine("Después de que Juan compra 5 manzanas más:");
             Console.WriteLine("Juan tiene " + juan + " manzanas.");
             Console.WriteLine("Pedro tiene " + pedro + " manzanas.\n");
 
-            // Paso 4: Reparten las manzanas por igual
             int total = juan + pedro;
             juan = total / 2;
             pedro = total / 2;
             Console.WriteLine("Después de repartir las manzanas por igual:");
             Console.WriteLine("Juan tiene " + juan + " manzanas.");
             Console.WriteLine("Pedro tiene " + pedro + " manzanas.");
-            //Fin del ejercicio
 
-            // 11 commit
+
+            // ------------------ 7 EJERCICIO ------------------
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine(" Séptimo ejercicio");
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine(" 7 EJERCICIO - DINERO MARÍA");
+            Console.WriteLine("-----------------------------------");
             Console.ForegroundColor = ConsoleColor.White;
 
             Console.Write("¿Cuánto dinero tiene María al inicio? ");
@@ -153,15 +156,16 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
 
             dinero -= 15; // compra dulces
             dinero += 20; // ahorra más
-
             Console.WriteLine("Ahora María tiene $" + dinero);
 
-            //prueba d commit
 
-            //12 commit
+            // ------------------ 8 EJERCICIO ------------------
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine(" Octavo ejercicio");
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine(" 8 EJERCICIO - BIBLIOTECA");
+            Console.WriteLine("-----------------------------------");
             Console.ForegroundColor = ConsoleColor.White;
+
             Console.Write("¿Cuántos libros había en la biblioteca al inicio? ");
             int libros = int.Parse(Console.ReadLine());
 
@@ -172,9 +176,13 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
             libros += int.Parse(Console.ReadLine());
 
             Console.WriteLine("\nEn la biblioteca quedan " + libros + " libros.");
-            //13 commit
+
+
+            // ------------------ 9 EJERCICIO ------------------
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine(" Noveno ejercicio");
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine(" 9 EJERCICIO - COMPRAS");
+            Console.WriteLine("-----------------------------------");
             Console.ForegroundColor = ConsoleColor.White;
 
             Console.Write("¿Cuánto dinero tienes? ");
@@ -183,24 +191,24 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
             dinero -= (2 * 10); // refrescos
             dinero -= 15;       // pan
             dinero -= 20;       // fruta
+            Console.WriteLine("Te queda " + dinero + " dinero después de las compras.");
 
-            Console.WriteLine("\nTe queda $" + dinero + " después de las compras.");
 
-            //14 commit 
+            // ------------------ 10 EJERCICIO ------------------
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine(" Décimo ejercicio");
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine(" 10 EJERCICIO - PROMEDIO NOTAS");
+            Console.WriteLine("-----------------------------------");
             Console.ForegroundColor = ConsoleColor.White;
+
             Console.Write("Ingresa la primera nota: ");
             double n1 = double.Parse(Console.ReadLine());
-
             Console.Write("Ingresa la segunda nota: ");
             double n2 = double.Parse(Console.ReadLine());
-
             Console.Write("Ingresa la tercera nota: ");
             double n3 = double.Parse(Console.ReadLine());
 
             double promedio = (n1 + n2 + n3) / 3;
-
             Console.WriteLine("\nEl promedio es: " + promedio);
 
             if (promedio >= 11)
@@ -209,43 +217,48 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
                 Console.WriteLine("Reprobaste.");
 
 
-            //prueba de commit
-
-            // otro ejerciciooooo
+            // ------------------ 11 EJERCICIO ------------------
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine(" Onceavo ejercicio");
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine(" 11 EJERCICIO - EDAD FUTURA");
+            Console.WriteLine("-----------------------------------");
             Console.ForegroundColor = ConsoleColor.White;
 
             Console.Write("Ingresa tu nombre: ");
             string nombr = Console.ReadLine();
-
             Console.Write("Ingresa tu edad: ");
             int eda = int.Parse(Console.ReadLine());
 
             Console.WriteLine($"Hola {nombr}, en 10 años tendrás {eda + 10} años.");
 
-            //ejercicio número 12 
+
+            // ------------------ 12 EJERCICIO ------------------
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine(" Onceavo ejercicio");
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine(" 12 EJERCICIO - ÁREA RECTÁNGULO");
+            Console.WriteLine("-----------------------------------");
             Console.ForegroundColor = ConsoleColor.White;
+
             Console.Write("Ingresa la base del rectángulo: ");
             double b = double.Parse(Console.ReadLine());
-
             Console.Write("Ingresa la altura del rectángulo: ");
             double h = double.Parse(Console.ReadLine());
 
             double area = b * h;
             Console.WriteLine($"El área del rectángulo es: {area}");
 
-            //ejercicio número 13
 
+            // ------------------ 13 EJERCICIO ------------------
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine(" Onceavo ejercicio");
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine(" 13 EJERCICIO - SWITCH DÍAS");
+            Console.WriteLine("-----------------------------------");
             Console.ForegroundColor = ConsoleColor.White;
 
             Console.Write("Ingresa un número del 1 al 7: ");
             int dia = int.Parse(Console.ReadLine());
             Console.Beep(800, 500);
+
             switch (dia)
             {
                 case 1: Console.WriteLine("Lunes"); break;
@@ -256,6 +269,7 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
                 case 6: Console.WriteLine("Sábado"); break;
                 case 7: Console.WriteLine("Domingo"); break;
                 default: Console.WriteLine("Número inválido"); break;
+
 
 
 
