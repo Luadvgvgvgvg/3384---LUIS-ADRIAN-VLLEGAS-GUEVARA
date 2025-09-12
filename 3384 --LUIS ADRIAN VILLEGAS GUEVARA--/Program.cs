@@ -111,6 +111,22 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
             Console.WriteLine("Juan tiene " + juan + " manzanas.");
             Console.WriteLine("Pedro tiene " + pedro + " manzanas.\n");
 
+            // 10 commit del mismo ejercicio
+            // Paso 3: Juan compra 5 manzanas más
+            juan += 5;
+            Console.WriteLine("Después de que Juan compra 5 manzanas más:");
+            Console.WriteLine("Juan tiene " + juan + " manzanas.");
+            Console.WriteLine("Pedro tiene " + pedro + " manzanas.\n");
+
+            // Paso 4: Reparten las manzanas por igual
+            int total = juan + pedro;
+            juan = total / 2;
+            pedro = total / 2;
+            Console.WriteLine("Después de repartir las manzanas por igual:");
+            Console.WriteLine("Juan tiene " + juan + " manzanas.");
+            Console.WriteLine("Pedro tiene " + pedro + " manzanas.");
+            //Fin del ejercicio
+
 
 
 

@@ -1,0 +1,7 @@
+C:\Users\lg854\OneDrive\Desktop\Don Mauro\3384 --LUIS ADRIAN VILLEGAS GUEVARA--\bin\Debug\3384 --LUIS ADRIAN VILLEGAS GUEVARA--.exe.config
+C:\Users\lg854\OneDrive\Desktop\Don Mauro\3384 --LUIS ADRIAN VILLEGAS GUEVARA--\bin\Debug\3384 --LUIS ADRIAN VILLEGAS GUEVARA--.exe
+C:\Users\lg854\OneDrive\Desktop\Don Mauro\3384 --LUIS ADRIAN VILLEGAS GUEVARA--\bin\Debug\3384 --LUIS ADRIAN VILLEGAS GUEVARA--.pdb
+C:\Users\lg854\OneDrive\Desktop\Don Mauro\3384 --LUIS ADRIAN VILLEGAS GUEVARA--\obj\Debug\3384 --LUIS ADRIAN VILLEGAS GUEVARA--.csproj.AssemblyReference.cache
+C:\Users\lg854\OneDrive\Desktop\Don Mauro\3384 --LUIS ADRIAN VILLEGAS GUEVARA--\obj\Debug\3384 --LUIS ADRIAN VILLEGAS GUEVARA--.csproj.CoreCompileInputs.cache
+C:\Users\lg854\OneDrive\Desktop\Don Mauro\3384 --LUIS ADRIAN VILLEGAS GUEVARA--\obj\Debug\3384 --LUIS ADRIAN VILLEGAS GUEVARA--.exe
+C:\Users\lg854\OneDrive\Desktop\Don Mauro\3384 --LUIS ADRIAN VILLEGAS GUEVARA--\obj\Debug\3384 --LUIS ADRIAN VILLEGAS GUEVARA--.pdb
