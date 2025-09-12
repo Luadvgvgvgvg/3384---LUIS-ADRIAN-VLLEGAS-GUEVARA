@@ -303,7 +303,7 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
             double precioFinal = precio - montoDescuento;
 
             // Mostrar resultados
-            Console.WriteLine("\n-------------------------------");
+            Console.WriteLine("-------------------------------");
             Console.WriteLine("Precio original: " + precio);
             Console.WriteLine("Descuento aplicado: " + descuento + "%");
             Console.WriteLine("Monto descontado: " + montoDescuento);
