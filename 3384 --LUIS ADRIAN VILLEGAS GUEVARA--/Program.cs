@@ -77,6 +77,16 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
 
             Console.WriteLine("En el autobús hay " + pasajeros + " pasajeros.");
 
+            //7 commit
+
+            int pastel = 8;
+            int comido = 2;
+            int repartido = 3;
+
+            int restante = pastel - (comido + repartido);
+
+            Console.WriteLine("Quedan " + restante + " porciones de pastel.");
+
 
         }
     }
