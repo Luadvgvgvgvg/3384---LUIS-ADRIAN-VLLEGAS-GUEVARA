@@ -153,7 +153,7 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
             //13 commit
 
             Console.Write("¿Cuánto dinero tienes? ");
-            int dinero = int.Parse(Console.ReadLine());
+            int diner = int.Parse(Console.ReadLine());
 
             dinero -= (2 * 10); // refrescos
             dinero -= 15;       // pan
@@ -177,9 +177,12 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
             Console.WriteLine("\nEl promedio es: " + promedio);
 
             if (promedio >= 11)
-                Console.WriteLine("✅ Aprobaste.");
+                Console.WriteLine("Aprobaste.");
             else
-                Console.WriteLine("❌ Reprobaste.");
+                Console.WriteLine("Reprobaste.");
+
+
+            //prueba de commit
 
 
 
