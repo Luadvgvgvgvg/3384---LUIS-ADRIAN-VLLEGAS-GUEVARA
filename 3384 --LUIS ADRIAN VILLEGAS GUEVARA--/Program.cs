@@ -69,6 +69,14 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
 
             Console.WriteLine("A Juan le quedan " + resultado + " manzanas.");
 
+            //Sexto ejercicio 
+
+            int pasajeros = 20;
+            pasajeros += 5; // suben
+            pasajeros -= 2; // bajan
+
+            Console.WriteLine("En el autobús hay " + pasajeros + " pasajeros.");
+
 
         }
     }
