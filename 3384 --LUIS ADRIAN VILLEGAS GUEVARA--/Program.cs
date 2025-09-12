@@ -11,7 +11,7 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
         static void Main(string[] args)
         {
             // Primer ejercicio de la tarea 
-            
+
             //Solicitar e imprimir el nombre, la edad y la estatura de un alumno
 
             //ADEMAS MOSTRAR EN QUE AÑO NACIO
@@ -50,9 +50,24 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
             int numero = int.Parse(Console.ReadLine());
 
             if (numero % 2 == 0)
+            {
+
                 Console.WriteLine("El número es par.");
+            }
             else
-                Console.WriteLine("El número es impar.");
+            {
+
+            }
+            Console.WriteLine("El número es impar.");
+
+            //5 commit 
+
+            int manzanasJuan = 10;
+            int manzanasDadas = 3;
+
+            int resultado = manzanasJuan - manzanasDadas;
+
+            Console.WriteLine("A Juan le quedan " + resultado + " manzanas.");
 
 
         }
