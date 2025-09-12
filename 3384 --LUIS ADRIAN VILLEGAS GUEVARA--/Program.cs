@@ -10,7 +10,7 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
     {
         static void Main(string[] args)
         {
-            Console.ForegroundColor = ConsoleColor.Green;
+             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine(" Primer ejercicio");
             Console.ForegroundColor = ConsoleColor.White;
 
@@ -223,6 +223,22 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
             int eda = int.Parse(Console.ReadLine());
 
             Console.WriteLine($"Hola {nombr}, en 10 años tendrás {eda + 10} años.");
+
+            //ejercicio número 12 
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine(" Onceavo ejercicio");
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.Write("Ingresa la base del rectángulo: ");
+            double b = double.Parse(Console.ReadLine());
+
+            Console.Write("Ingresa la altura del rectángulo: ");
+            double h = double.Parse(Console.ReadLine());
+
+            double area = b * h;
+            Console.WriteLine($"El área del rectángulo es: {area}");
+
+
+
         }
     }
 }
