@@ -127,6 +127,17 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
             Console.WriteLine("Pedro tiene " + pedro + " manzanas.");
             //Fin del ejercicio
 
+            // 11 commit
+            Console.Write("¿Cuánto dinero tiene María al inicio? ");
+            int dinero = int.Parse(Console.ReadLine());
+
+            dinero -= 15; // compra dulces
+            dinero += 20; // ahorra más
+
+            Console.WriteLine("Ahora María tiene $" + dinero);
+
+            //prueba d commit
+
 
 
 
