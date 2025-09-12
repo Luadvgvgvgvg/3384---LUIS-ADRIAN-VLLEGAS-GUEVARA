@@ -103,6 +103,14 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
             Console.WriteLine("Juan tiene " + juan + " manzanas.");
             Console.WriteLine("Pedro tiene " + pedro + " manzanas.\n");
 
+            // 9 commit del mismo ejercicio
+
+            // Paso 2: Pedro se come 2 manzanas
+            pedro -= 2;
+            Console.WriteLine("Después de que Pedro se come 2 manzanas:");
+            Console.WriteLine("Juan tiene " + juan + " manzanas.");
+            Console.WriteLine("Pedro tiene " + pedro + " manzanas.\n");
+
 
 
 
