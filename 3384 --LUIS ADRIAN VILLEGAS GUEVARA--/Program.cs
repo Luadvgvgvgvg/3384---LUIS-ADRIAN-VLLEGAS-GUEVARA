@@ -10,8 +10,18 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
     {
         static void Main(string[] args)
         {
-            // ------------------ 1 EJERCICIO
-            // ------------------
+            //Datos de alumno.
+            Console.ForegroundColor = ConsoleColor.Red;
+
+            Console.WriteLine("3384 - LUIS ADRIAN VILLEGAS GUEVARA");
+            Console.WriteLine("INGENIERÍA EN SISTEMAS COMPUTACIONALES");
+            Console.WriteLine("Trabajo en CLASE - Guardando commits");
+            Console.WriteLine("---------------------------------------------------");
+            Console.ForegroundColor = ConsoleColor.White;
+
+
+
+            // ------------------ 1 EJERCICIO ------------------
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("-----------------------------------");
             Console.WriteLine(" 1 EJERCICIO - DATOS DEL ALUMNO");
