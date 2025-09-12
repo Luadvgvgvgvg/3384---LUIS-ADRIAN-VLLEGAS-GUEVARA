@@ -245,7 +245,7 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
 
             Console.Write("Ingresa un número del 1 al 7: ");
             int dia = int.Parse(Console.ReadLine());
-
+            Console.Beep(800, 500);
             switch (dia)
             {
                 case 1: Console.WriteLine("Lunes"); break;
