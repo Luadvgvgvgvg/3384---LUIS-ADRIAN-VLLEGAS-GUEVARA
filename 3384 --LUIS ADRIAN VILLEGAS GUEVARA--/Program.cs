@@ -365,7 +365,7 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
             // 18 ejercicio 
 
 
-            nsole.ForegroundColor = ConsoleColor.Green;
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("-----------------------------------");
             Console.WriteLine(" 18 EJERCICIO - FACTORIAL");
             Console.WriteLine("-----------------------------------");
@@ -382,6 +382,37 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
             Console.WriteLine($"El factorial de {numFact} es: {factorial}");
 
 
+
+            //19 ejercicio 
+
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine(" 19 EJERCICIO - NÚMEROS PRIMOS");
+            Console.WriteLine("-----------------------------------");
+            Console.ForegroundColor = ConsoleColor.White;
+
+            Console.Write("Ingresa un número para verificar si es primo: ");
+            int numPrimo = int.Parse(Console.ReadLine());
+
+            bool esPrimo = true;
+            if (numPrimo <= 1)
+                esPrimo = false;
+            else
+            {
+                for (int i = 2; i <= Math.Sqrt(numPrimo); i++)
+                {
+                    if (numPrimo % i == 0)
+                    {
+                        esPrimo = false;
+                        break;
+                    }
+                }
+            }
+
+            if (esPrimo)
+                Console.WriteLine($"{numPrimo} es primo.");
+            else
+                Console.WriteLine($"{numPrimo} no es primo.");
 
         }
     }
