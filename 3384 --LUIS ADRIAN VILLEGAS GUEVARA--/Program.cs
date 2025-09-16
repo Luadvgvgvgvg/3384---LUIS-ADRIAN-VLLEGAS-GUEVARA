@@ -472,6 +472,28 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
             double areaCirculo = Math.PI * Math.Pow(radio, 2);
             Console.WriteLine($"El área del círculo con radio {radio} es: {areaCirculo}");
 
+
+            // ------------------ 24 EJERCICIO ------------------
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine(" 24 EJERCICIO - NÚMERO MAYOR DE 3");
+            Console.WriteLine("-----------------------------------");
+            Console.ForegroundColor = ConsoleColor.White;
+
+            Console.Write("Ingresa el primer número: ");
+            int num1 = int.Parse(Console.ReadLine());
+            Console.Write("Ingresa el segundo número: ");
+            int num2 = int.Parse(Console.ReadLine());
+            Console.Write("Ingresa el tercer número: ");
+            int num3 = int.Parse(Console.ReadLine());
+
+            int mayor = num1;
+            if (num2 > mayor) mayor = num2;
+            if (num3 > mayor) mayor = num3;
+
+            Console.WriteLine($"El número mayor es: {mayor}");
+
+
         }
     }
 }
