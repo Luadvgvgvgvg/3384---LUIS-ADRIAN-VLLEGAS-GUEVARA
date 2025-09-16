@@ -414,6 +414,25 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
             else
                 Console.WriteLine($"{numPrimo} no es primo.");
 
+
+
+            //20 ejercicio 
+
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine(" 20 EJERCICIO - NÚMEROS PARES DEL 1 AL 20");
+            Console.WriteLine("-----------------------------------");
+            Console.ForegroundColor = ConsoleColor.White;
+
+            Console.WriteLine("Los números pares del 1 al 20 son:");
+            for (int i = 1; i <= 20; i++)
+            {
+                if (i % 2 == 0)
+                    Console.WriteLine(i);
+            }
+
+
+
         }
     }
 }
