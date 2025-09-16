@@ -309,6 +309,21 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
             Console.WriteLine("Monto descontado: " + montoDescuento);
             Console.WriteLine("Precio final a pagar: " + precioFinal);
 
+            //14 EJERICIO
+
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine(" 15 EJERCICIO - CONVERSIÓN DE TEMPERATURA");
+            Console.WriteLine("-----------------------------------");
+            Console.ForegroundColor = ConsoleColor.White;
+
+            Console.Write("Ingresa la temperatura en Celsius: ");
+            double celsius = double.Parse(Console.ReadLine());
+
+            double fahrenheit = (celsius * 9 / 5) + 32;
+            Console.WriteLine($"La temperatura en Fahrenheit es: {fahrenheit}°F");
+
+
 
 
         }
