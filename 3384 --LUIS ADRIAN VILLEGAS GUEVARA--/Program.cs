@@ -324,6 +324,22 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
             Console.WriteLine($"La temperatura en Fahrenheit es: {fahrenheit}°F");
 
 
+            // 16 ejercicio 
+
+            // ------------------ 16 EJERCICIO ------------------
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine(" 16 EJERCICIO - TABLA DE MULTIPLICAR");
+            Console.WriteLine("-----------------------------------");
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.Write("Ingresa un número para mostrar su tabla de multiplicar: ");
+            int numTabla = int.Parse(Console.ReadLine());
+
+            for (int i = 1; i <= 10; i++)
+            {
+                Console.WriteLine($"{numTabla} x {i} = {numTabla * i}");
+            }
+
 
 
         }
