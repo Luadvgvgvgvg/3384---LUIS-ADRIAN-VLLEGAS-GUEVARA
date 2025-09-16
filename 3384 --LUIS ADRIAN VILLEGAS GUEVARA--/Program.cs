@@ -362,6 +362,27 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
 
 
 
+            // 18 ejercicio 
+
+
+            nsole.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine(" 18 EJERCICIO - FACTORIAL");
+            Console.WriteLine("-----------------------------------");
+            Console.ForegroundColor = ConsoleColor.White;
+
+            Console.Write("Ingresa un número para calcular su factorial: ");
+            int numFact = int.Parse(Console.ReadLine());
+
+            long factorial = 1;
+            for (int i = 1; i <= numFact; i++)
+            {
+                factorial *= i;
+            }
+            Console.WriteLine($"El factorial de {numFact} es: {factorial}");
+
+
+
         }
     }
 }
