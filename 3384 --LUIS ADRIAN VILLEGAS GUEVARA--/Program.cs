@@ -447,6 +447,30 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
             double promedio5 = sumaNums / 5;
             Console.WriteLine($"El promedio de los 5 números es: {promedio5}");
 
+            // ------------------ 22 EJERCICIO ------------------
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine(" 22 EJERCICIO - CONVERSIÓN DE MONEDA");
+            Console.WriteLine("-----------------------------------");
+            Console.ForegroundColor = ConsoleColor.White;
+
+            Console.Write("Ingresa la cantidad en dólares (USD): ");
+            double usd = double.Parse(Console.ReadLine());
+            double mxn = usd * 18; // tasa de ejemplo: 1 USD = 18 MXN
+            Console.WriteLine($"{usd} dólares equivalen a {mxn} pesos mexicanos.");
+
+
+            // ------------------ 23 EJERCICIO ------------------
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine(" 23 EJERCICIO - ÁREA DE UN CÍRCULO");
+            Console.WriteLine("-----------------------------------");
+            Console.ForegroundColor = ConsoleColor.White;
+
+            Console.Write("Ingresa el radio del círculo: ");
+            double radio = double.Parse(Console.ReadLine());
+            double areaCirculo = Math.PI * Math.Pow(radio, 2);
+            Console.WriteLine($"El área del círculo con radio {radio} es: {areaCirculo}");
 
         }
     }
