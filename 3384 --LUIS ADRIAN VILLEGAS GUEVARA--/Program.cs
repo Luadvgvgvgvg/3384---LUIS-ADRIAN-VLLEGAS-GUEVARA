@@ -431,6 +431,21 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
                     Console.WriteLine(i);
             }
 
+            // ------------------ 21 EJERCICIO ------------------
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine(" 21 EJERCICIO - PROMEDIO DE 5 NÚMEROS");
+            Console.WriteLine("-----------------------------------");
+            Console.ForegroundColor = ConsoleColor.White;
+
+            double sumaNums = 0;
+            for (int i = 1; i <= 5; i++)
+            {
+                Console.Write($"Ingresa el número {i}: ");
+                sumaNums += double.Parse(Console.ReadLine());
+            }
+            double promedio5 = sumaNums / 5;
+            Console.WriteLine($"El promedio de los 5 números es: {promedio5}");
 
 
         }
