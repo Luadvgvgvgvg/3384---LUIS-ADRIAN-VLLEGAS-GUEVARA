@@ -341,6 +341,26 @@ namespace _3384___LUIS_ADRIAN_VILLEGAS_GUEVARA__
             }
 
 
+            // 17 ejercicio
+
+            // ------------------ 17 EJERCICIO ------------------
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine(" 17 EJERCICIO - SUMA DE NÚMEROS DEL 1 AL N");
+            Console.WriteLine("-----------------------------------");
+            Console.ForegroundColor = ConsoleColor.White;
+
+            Console.Write("Ingresa un número N: ");
+            int N = int.Parse(Console.ReadLine());
+
+            int suma = 0;
+            for (int i = 1; i <= N; i++)
+            {
+                suma += i;
+            }
+            Console.WriteLine($"La suma de los números del 1 al {N} es: {suma}");
+
+
 
         }
     }
